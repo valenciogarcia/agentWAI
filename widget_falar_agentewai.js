@@ -6,7 +6,7 @@
         top: 30px;
         left: 30px;
         width: 220px;
-        height: 110px;
+        height: 97px;
         background: #1b1b34;
         border-radius: 14px;
         box-shadow: 0 12px 28px rgba(0,0,0,0.35);
