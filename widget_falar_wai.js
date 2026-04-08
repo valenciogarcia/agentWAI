@@ -8,7 +8,7 @@
         left: auto;
         transform: translateY(-50%);
         width: 220px;
-        height: 100px;
+        height: 98px;
         background: #1b1b34;
         border-radius: 14px;
         box-shadow: 0 12px 28px rgba(0,0,0,0.35);
