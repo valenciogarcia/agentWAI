@@ -1,4 +1,3 @@
-<script type="module">
   if (!document.getElementById("wconnect-voice-widget")) {
     const style = document.createElement("style");
     style.textContent = `
@@ -344,4 +343,3 @@
       }
     });
   }
-</script>
