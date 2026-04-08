@@ -304,9 +304,9 @@ if (!document.getElementById("wconnect-voice-widget")) {
       setStatus("Criando chamada com wconnect.ai...");
 
       const payload = new URLSearchParams();
-      payload.append("source", "voz.iOpera.com.br");
+      payload.append("source", "PHONE_SITE");
       payload.append("leadName", "Visitante do site");
-      payload.append("fluxo", "WEBRTC_IOPERA");
+      payload.append("fluxo", "WEBRTC_SITE");
       payload.append("visitorId", getVisitorId());
       payload.append("clientContext", JSON.stringify(clientContext));
 
