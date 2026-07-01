@@ -483,7 +483,7 @@ if (!document.getElementById("wconnect-voice-widget")) {
       payload.append("visitorId", getVisitorId());
       payload.append("clientContext", JSON.stringify(clientContext));
 
-      const response = await fetch("https://webhook.uniqueid.com.br/webhook/7940a25d48245fda04ccaf661e3886eLUZIAINBOUND", {
+      const response = await fetch("https://webhook.wconnect.tech/webhook/58e13feb-f91d-458e-8490-29a3c62c98ea-CHATWOOTV5voz", {
         method: "POST",
         body: payload
       });
